@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CometChatSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_launch_chat">LAUNCH COMETCHAT</string>
+    <string name="text_login_superhero1">LOGIN AS SUPERHERO1</string>
+    <string name="text_login_superhero2">LOGIN AS SUPERHERO2</string>
+    <string name="text_initialize_chat">INITIALIZE CHAT</string>
+</resources>

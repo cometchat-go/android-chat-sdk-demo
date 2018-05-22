@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.inscripts.cometchatsample.MainActivity">
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+         />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/cometchat_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/btnLoginSuperHero1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:text="@string/text_login_superhero1"
+            android:enabled="false"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:id="@+id/btnLoginSuperHero2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:text="@string/text_login_superhero2"
+            android:enabled="false"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnInitialize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_login"
+        android:text="@string/text_initialize_chat"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnLaunchChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_login"
+        android:text="@string/text_launch_chat"
+        android:layout_margin="20dp"
+        android:enabled="false"/>
+
+
+
+</RelativeLayout>
+
+
+
+</LinearLayout>
