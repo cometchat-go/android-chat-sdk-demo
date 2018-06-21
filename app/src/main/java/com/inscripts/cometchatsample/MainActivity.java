@@ -72,9 +72,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btnLaunchChat:
                 launchChat();
-                break;
-
-
         }
     }
 
