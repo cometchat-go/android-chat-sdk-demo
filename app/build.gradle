@@ -46,10 +46,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-        compile 'com.inscripts:CometChat:7.1.+'
-        compile 'com.inscripts:CometChatUI:7.1.+'
-//        compile project (':CometChat')
-    //    compile projects (':CometChatUI')
-//    implementation project(':CometChat')
-//    implementation project(':CometChatUI')
+    compile 'com.inscripts:CometChat:7.1.+'
+    compile 'com.inscripts:CometChatUI:7.1.+'
+
 }
