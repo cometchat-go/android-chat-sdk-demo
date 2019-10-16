@@ -5,4 +5,5 @@
     <string name="text_login_superhero1">LOGIN AS SUPERHERO1</string>
     <string name="text_login_superhero2">LOGIN AS SUPERHERO2</string>
     <string name="text_initialize_chat">INITIALIZE CHAT</string>
+    <string name="text_create_user">Create User</string>
 </resources>
